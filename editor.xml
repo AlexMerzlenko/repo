@@ -1,9 +1,10 @@
 <application>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="" />
+    <option name="IS_CARET_INSIDE_TABS" value="true" />
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
+    <option name="SMART_HOME" value="false" />
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
     <option name="ADD_CARETS_ON_DOUBLE_CTRL" value="false" />
-    <option name="KEEP_TRAILING_SPACE_ON_CARET_LINE" value="false" />
   </component>
 </application>
