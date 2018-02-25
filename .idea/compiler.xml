@@ -9,7 +9,7 @@
         <module name="hackerrank" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="hackerrank" target="1.5" />
     </bytecodeTargetLevel>
   </component>
