@@ -1,4 +1,4 @@
-package KeepTesting;
+package TestLibrary;
 
 import java.util.Map;
 import java.util.TreeMap;
@@ -6,7 +6,7 @@ import java.util.TreeMap;
 /**
  * Created by Alex on 02/19/2018.
  */
-public class StringAnagram extends TestObject {
+public class StringAnagram extends TestObjectEntry {
 
 	private Map<String, Integer> aString = new TreeMap<String, Integer>();
 	private Map<String, Integer> bString = new TreeMap<String, Integer>();

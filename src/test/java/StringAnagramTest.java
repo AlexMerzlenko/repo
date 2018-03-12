@@ -1,6 +1,4 @@
-import KeepTesting.InvalidInputException;
-import KeepTesting.StringAnagram;
-import KeepTesting.StringComparingSubstrings;
+import TestLibrary.StringAnagram;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

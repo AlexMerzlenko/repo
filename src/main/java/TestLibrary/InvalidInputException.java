@@ -1,4 +1,4 @@
-package KeepTesting;
+package TestLibrary;
 
 /**
  * Created by Alex on 02/07/2018.

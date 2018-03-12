@@ -1,15 +1,16 @@
-package KeepTesting;
+package TestLibrary;
 
 /**
  * Created by Alex on 02/10/2018.
  */
-public class StringComparingSubstrings extends TestObject {
+public class StringComparingSubstrings extends TestObjectEntry {
 	
 	private String sourceString;
 	private int substringLength;
 	private String minSubstring;
 	private String maxSubstring;
 		
+	@Override
 	public void RunTest() throws InvalidInputException {
 		
 		sourceString = GetInputDataAsString().split("\n")[0];
@@ -31,6 +32,7 @@ public class StringComparingSubstrings extends TestObject {
 		}
 	}
 	
+	@Override
 	public Object ExposeResults(){
 		String results = "";
 		results += minSubstring + "\n" + maxSubstring;

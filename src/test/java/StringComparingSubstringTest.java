@@ -1,5 +1,5 @@
-import KeepTesting.InvalidInputException;
-import KeepTesting.StringComparingSubstrings;
+import TestLibrary.InvalidInputException;
+import TestLibrary.StringComparingSubstrings;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;

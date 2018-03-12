@@ -1,13 +1,9 @@
-package KeepTesting;
-
-import java.util.Locale;
-
-import static java.lang.System.in;
+package TestLibrary;
 
 /**
  * Created by Alex on 02/06/2018.
  */
-public class StringIntroduction extends TestObject {
+public class StringIntroduction extends TestObjectEntry {
 	
 	private int totalLength;
 	private boolean firstGreater;
@@ -15,6 +11,7 @@ public class StringIntroduction extends TestObject {
 	
 	public StringIntroduction(){}
 	
+	@Override
 	public void RunTest() throws InvalidInputException {
 		String[] words = GetInputDataAsString().split("\n");
 		
@@ -31,6 +28,7 @@ public class StringIntroduction extends TestObject {
 		}
 	}
 	
+	@Override
 	public Object ExposeResults(){
 		String results = "";
 		results += String.valueOf(totalLength) + "\n" + (firstGreater ? "Yes" : "No") + "\n" + capitalizedWordsCombined;

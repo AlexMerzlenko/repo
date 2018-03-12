@@ -1,6 +1,4 @@
-import KeepTesting.Array1DJumps;
-import KeepTesting.InvalidInputException;
-import KeepTesting.StringIntroduction;
+import TestLibrary.Array1DJumps;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
